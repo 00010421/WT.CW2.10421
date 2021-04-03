@@ -1,0 +1,8 @@
+extends layout.pug 
+block content 
+    section.leftSectionL
+    section.rightSectionL
+        h2.listB Blogs
+        each blog in blogList
+            div.blog-wrapper
+                a.blog(href="/blogList/detail")= blog

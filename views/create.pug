@@ -1,0 +1,15 @@
+extends layout.pug
+
+block content
+    section.leftSectionW
+        p.blogExplW Do you want to upload this blog to the website? Click Publish.
+    
+    section.rightSection
+        form.form(action="/create" method='POST')
+            label Title
+            input.input(type="text" name='title')
+
+            label Context
+            textarea(type="text" name="description" cols='30' rows='10')
+           
+            button Publish

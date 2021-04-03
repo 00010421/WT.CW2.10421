@@ -93,6 +93,8 @@ img{
     margin-left: 500px; */
     width: 1030px;
     height: 750px;
+    object-fit: fill;
+
 }
 
 .listB{
@@ -101,22 +103,21 @@ img{
 
 }
 
-ul li a{
+/* a in list  */
+.blog{
     text-decoration: none;
     font-size: 30px;
     color: #000;
 }
-
-ul{
+/* div in list, used to be ul  */
+.blog-wrapper{
     margin-top: 40px;
-    list-style-type: none;
-}
-ul li{
     max-width: 900px;;
     border-bottom: #EA5752 1px solid;
     padding-bottom: 10px;
     padding-top: 30px;
 }
+
 
 .rightSection {
     margin-top: -750px;

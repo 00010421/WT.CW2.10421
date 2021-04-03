@@ -31,7 +31,7 @@ node app
 [Homepage to Express](https://expressjs.com/)
 - pug.js 
 [Homepage to Pug](https://pugjs.org/api/getting-started.html)
--bodyParser.js
+- body-parser.js
 [Description of Body Parser](http://expressjs.com/en/resources/middleware/body-parser.html)
 
 

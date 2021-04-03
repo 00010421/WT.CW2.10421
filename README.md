@@ -28,8 +28,12 @@ node app
 
 ### Web Application Dependencies
 - express.js
+[Homepage to Express] (https://expressjs.com/)
 - pug.js 
+[Homepage to Pug] (https://pugjs.org/api/getting-started.html)
 
 
 ### Link to the public repository on Github
-https://github.com/00010421/WT.CW2.10421
+[Link to Github repository] (https://github.com/00010421/WT.CW2.10421)
+
+

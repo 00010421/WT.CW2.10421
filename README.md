@@ -40,5 +40,5 @@ node app
 
 
 ### Link to Glitch
-- [View the code in Glitch](https://glitch.com/edit/#!/polarized-verdant-literature)
-- [View the live site in Glitch](https://polarized-verdant-literature.glitch.me)
+- [View the code in Glitch](https://glitch.com/edit/#!/10421)
+- [View the live site in Glitch](https://10421.glitch.me)

@@ -26,6 +26,9 @@ header h1 a{
     font-size: 1.3em;
     color: black;
 }
+header h1 a:hover{
+    color: rgb(75, 80, 75);
+}
 
 header p a{
     margin-left: 1100px;
@@ -33,6 +36,17 @@ header p a{
     font-size: 2em;
 }
 
+header p a:hover{
+    color: #EA5752;
+}
+
+.cw{
+    margin-top: -600px;
+    font-size: 25px;
+    width: 500px;
+    margin-left: 500px;
+    color: #4e6888;
+}
 /* Left section - Homepage, Write */
 .leftSection, .leftSectionW, .leftSectionL, .leftSectionD{
     padding-bottom: 90px;
@@ -103,22 +117,26 @@ img{
     margin-left: 400px;
 }
 
-
 .blogs{
     list-style-type: none;
+    margin-top: 20px;
     margin-left: 400px;
     max-width: 900px;;
     border-bottom: #EA5752 1px solid;
-    padding-bottom: 10px;
-    padding-top: 30px;
+    padding: 20px 0px 10px 30px;
     font-size: 30px;
+    background-color: #97af8d;
+    border-radius: 50px 15px;
 }
+
 .blogs a{
     text-decoration: none;
     font-size: 30px;
-    color: #000;
+    color: rgb(63, 68, 63);
 }
-
+.blogs a:hover{
+    color:  rgb(0, 0, 0);
+}
 .rightSection {
     margin-top: -750px;
     margin-left: 500px;
@@ -159,8 +177,16 @@ textarea, input{
 
 input{
     font-weight: bold;
+    font-size: 24px;
+    background-color: #97af8d;
+    border: none;
 }
-
+textarea{
+    font-family: Arial, Helvetica, sans-serif;
+    resize: none;
+    background-color: #97af8d;
+    border: none;
+}
 form button{
     border: none;
     margin-left: -1305px;
@@ -170,7 +196,9 @@ form button{
     color:  rgb(0, 18, 66);
     font-size: 36px;
 }
-
+form button:hover{
+    background: #9b966e;
+}
 .error{
     position: absolute;
     margin-left: 100px;
@@ -193,4 +221,11 @@ form button{
     border: 1px solid green;
     font-size: 1.2rem;
     color: green;
+}
+
+.leftB:hover{
+    background: #b1423e;
+}
+.leftB3:hover{
+    background-color: #778aa1;
 }

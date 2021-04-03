@@ -32,6 +32,7 @@ node app
 - pug.js 
 [Homepage to Pug](https://pugjs.org/api/getting-started.html)
 -bodyParser.js
+[Description of Body Parser](http://expressjs.com/en/resources/middleware/body-parser.html)
 
 
 ### Link to the public repository on Github

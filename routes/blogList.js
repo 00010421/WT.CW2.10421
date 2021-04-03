@@ -16,7 +16,7 @@ dbc.useCollection("blogList.json")
 router.get("/", (req, res) => {
     dbc.getAll(
         records => res.render("blogList", { blogList: records }),
-        () => res.render("all_notes", { blogList: null })
+        () => res.render("blogList", { blogList: null })
     )
 })
 

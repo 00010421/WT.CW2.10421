@@ -100,24 +100,24 @@ img{
 .listB{
     font-size: 60px;
     margin-top: 100px;
-
+    margin-left: 400px;
 }
 
-/* a in list  */
-.blog{
-    text-decoration: none;
-    font-size: 30px;
-    color: #000;
-}
-/* div in list, used to be ul  */
-.blog-wrapper{
-    margin-top: 40px;
+
+.blogs{
+    list-style-type: none;
+    margin-left: 400px;
     max-width: 900px;;
     border-bottom: #EA5752 1px solid;
     padding-bottom: 10px;
     padding-top: 30px;
+    font-size: 30px;
 }
-
+.blogs a{
+    text-decoration: none;
+    font-size: 30px;
+    color: #000;
+}
 
 .rightSection {
     margin-top: -750px;

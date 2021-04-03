@@ -1,8 +1,9 @@
 extends layout.pug 
 block content 
     section.leftSectionD
-        p.blogExplD #{blog.title}
-        a.leftB3(href='#') Delete
+        p.blogExplD= blog.title
+        if !blog.delete
+        a.leftB3(href=`/blogList/${blog.id}/delete`) Delete
     section.rightSection
-        h3 #{blog.title}
-        p.contextD #{blog.description}
+        h3= blog.title
+        p.contextD= blog.body

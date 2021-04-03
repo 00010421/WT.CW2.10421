@@ -15,7 +15,7 @@ git clone https://github.com/00010421/WT.CW2.10421.git
 
 ```bash
 cd [the project folder which includes this web application] 
-npm install express pug
+npm install express pug body-parser
 ```
 
 
@@ -31,6 +31,7 @@ node app
 [Homepage to Express](https://expressjs.com/)
 - pug.js 
 [Homepage to Pug](https://pugjs.org/api/getting-started.html)
+-bodyParser.js
 
 
 ### Link to the public repository on Github

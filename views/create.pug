@@ -10,11 +10,11 @@ block content
             p.success Your blog is published to B104! Go to view blog to check. 
 
     section.rightSection
-        form.form(action="/create" method='POST')
+        form.form(method="POST")
             label Title
             input.input(type="text" name='title')
 
             label Context
-            textarea(type="text" name="description" cols='30' rows='10')
+            textarea(type="text" name="body" cols='30' rows='10')
            
             button Publish

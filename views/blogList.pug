@@ -1,8 +1,13 @@
 extends layout.pug 
 block content 
     section.leftSectionL
+
     section.rightSectionL
-        h2.listB Blogs
+    h2.listB Blogs
+    if blogList.length
+        ul
         each blog in blogList
-            div.blog-wrapper
-                a.blog(href=`/blogList/${blog.id}`) #{blog.title}
+            li.blogs
+                a.blog(href=`blogList/${blog.id}`)= blog.title
+    else 
+        p.blogs There are no any blog posted.

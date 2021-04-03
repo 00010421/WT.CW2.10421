@@ -3,7 +3,12 @@ extends layout.pug
 block content
     section.leftSectionW
         p.blogExplW Do you want to upload this blog to the website? Click Publish.
+        if error
+            p.error You have an error. Please check if you have all the information. 
     
+        if success 
+            p.success Your blog is published to B104! Go to view blog to check. 
+
     section.rightSection
         form.form(action="/create" method='POST')
             label Title

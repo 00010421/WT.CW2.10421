@@ -5,4 +5,4 @@ block content
         h2.listB Blogs
         each blog in blogList
             div.blog-wrapper
-                a.blog(href="/blogList/detail")= blog
+                a.blog(href=`/blogList/${blog.id}`) #{blog.title}

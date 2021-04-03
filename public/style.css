@@ -170,3 +170,27 @@ form button{
     color:  rgb(0, 18, 66);
     font-size: 36px;
 }
+
+.error{
+    position: absolute;
+    margin-left: 100px;
+    margin-top: -150px;
+    width: 300px;
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid red;
+    font-size: 1.2rem;
+    color: red;
+}
+
+.success{
+    position: absolute;
+    margin-left: 100px;
+    margin-top: -150px;
+    width: 300px;
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid green;
+    font-size: 1.2rem;
+    color: green;
+}

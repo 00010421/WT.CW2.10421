@@ -42,6 +42,13 @@ app.post('/create', (req, res)=> {
     }
 })
 
+app.get('/api/v1/blogList', (req, res)=> {
+    fs.readFile('./data/blogList.json', (err, data)=> {
+        if (err) throw err
+        const blogList = JSON.parse(data)
+        res.json(blogList)
+    })
+})
 
 app.get('/blogList', (req, res)=>{
     fs.readFile('./data/blogList.json', (err, data)=> {

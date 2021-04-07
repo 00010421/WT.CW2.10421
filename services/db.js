@@ -1,8 +1,8 @@
 const fs = require("fs");
 const path = require("path");
 
-const generateID = require("../utils").generateID;
-const root = require("../utils").root;
+const generateID = require("../routes/utils").generateID;
+const root = require("../routes/utils").root;
 
 class DbContext {
   constructor() {

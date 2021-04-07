@@ -8,7 +8,7 @@ const bodyParser = require("body-parser");
 //routes
 const comments = require("./routes/comments");
 const blogList = require("./routes/blogList");
-const getCollection = require("./utils").getCollection;
+const getCollection = require("./routes/utils").getCollection;
 
 //stactic files serving 
 // app.use('/static', express.static('public'));
@@ -46,5 +46,5 @@ app.get('/api/v1/blogList', (req, res)=> {
             const blogList = JSON.parse(data)
             res.json(blogList)
         })
-    })
+})
 

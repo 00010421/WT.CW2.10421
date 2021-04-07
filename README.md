@@ -2,6 +2,10 @@
 
 ### This application allows user to write and upload the blog with title and description. User can also delete and read the blog and list of blogs that is published. 
 
+Project Structure: followed the general expected structure, but with services folder with validator and database file inside. Utils.js file is inside the routes folder instead of putting it outside, at the main folder. 
+
+
+
 If the user wants to run this blog web application locally, the following step-by-step instruction is strongly recommended or it might cause the an error: 
 
 1. Please click the link and clone the repository 

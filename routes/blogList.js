@@ -6,8 +6,8 @@ const router = express.Router()
 
 const Validator = require("../services/validators")
 const DbContext = require("../services/db")
-const root = require("../utils").root;
-const getCollection = require("../utils").getCollection;
+const root = require("./utils").root;
+const getCollection = require("./utils").getCollection;
 
 const dbc = new DbContext()
 const v = new Validator()
